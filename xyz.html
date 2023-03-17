@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xyz fitness</title>
+    <style>
+        /* CSS Reset */
+        *{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(./boxer-gb4419cc2b_1920.jpg);
+            height: 1000px;
+            color: white;
+        }
+        .left{
+            display: inline-block;
+            left: 20px;
+            top: 20px;
+            position: absolute;
+
+        }
+        .left img{
+            width: 100px;
+
+        }
+        .left div{
+            text-align: center;
+            line-height: 16px;
+            font-size: 21px;
+        }
+        .mid{
+            display: block;
+            width: 43%;
+            margin: 30px auto;
+            
+        }
+        .right{
+            position: absolute;
+            right: 20px;
+            top: 30px;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 44px 33px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+          text-decoration: underline;
+          color: gray;
+        }
+
+        .btn{
+            margin: 10px;
+            color: white;
+            background-color: black;
+            padding: 5px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(90, 89, 89);
+        }
+
+        .container{
+            border: 5px solid rgb(255, 0, 0);
+            margin: 54px 50px;
+            padding: 44px 25px;
+            width: 33%;
+            border-radius: 26px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 376px;
+            padding: 6px;
+            margin: 10px auto;
+            border: 2px solid rgb(229 0 131);
+            font-size: 18px;
+            border-radius: 24px;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 178px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+           <img src="./cat-gcba3020de_1920.jpg" alt="">
+           <div>xyz fitness</div>
+
+      
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+           
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calcutator</a></li>
+                <li><a href="#">content Us</a></li>
+            </ul>
+
+       
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+       <h1>Join the best gym of Delhi now</h1>
+       <form action="noaction.phg">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+       </form>
+    </div>
+    
+</body>
+</html>
